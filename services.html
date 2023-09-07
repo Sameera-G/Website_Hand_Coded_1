@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and Professional Web Design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Sam">
+    <title>Acme Web Design | Services</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animate.css">
+
+    <script src="./js/wow.min.js"></script>
+      <script>
+        new WOW().init();
+      </script>
+
+
+  </head>
+  <body>
+    <header>
+      <div class="container fadeInDown animated">
+          <div id="branding">
+            <h1><span class="highlight">SCI</span>entech</h1>     <!--the span tag keeps the word inline, we can use this to change single word's parameters-->
+          </div>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li class="current"><a href="services.html">Services</a></li>
+            </ul>
+          </nav>
+      </div>
+    </header>
+                    <!--here the main slider or the image wording is started-->
+    <section id="showcase">
+      <div class="container wow lightSpeedIn animated" data-wow-delay="0.5s">
+          <h1>Services</h1>
+          <p>We are a group of technologists and we have almost all the people who can cover almost all the areas of the world of technology. We would like to work with you and perform well to show that we are able to make our dream come true</p>
+        </div>
+    </section>
+                    <!--the main slider or the main image has been finished-->
+
+                    <!--the newsletter subscriber has been started-->
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>  <!--here the form can be connected to the back end server side programming tables, coding like this, action="process.php", try php of django to insert a table-->
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+                    <!--newsletter is finished-->
+
+                    <!--the 3 boxes have been started here-->
+    <section id="main">
+      <div class="container">
+      <!--box 1-->
+        <article id="main-col">
+           <h1 class="page-title">Services</h1>
+             <ul id="services">
+               <li>
+                 <h3>Software solutions</h3>
+                 <p>We have been developing softwares for educational institutes, small buinesses, casinos and many more companies who are in the higher levels of the corporate section</p>
+                 <p>Pricing: from $50 onwards</p>
+               </li>
+
+               <li>
+                 <h3>Security system designs</h3>
+                 <p>We have been developing softwares for educational institutes, small buinesses, casinos and many more companies who are in the higher levels of the corporate section</p>
+                 <p>Pricing: from $300 onwards</p>
+               </li>
+
+               <li>
+                 <h3>Building automation</h3>
+                 <p>We have been developing softwares for educational institutes, small buinesses, casinos and many more companies who are in the higher levels of the corporate section</p>
+                 <p>Pricing: from $100 onwards</p>
+               </li>
+
+               <li>
+                 <h3>Educational support</h3>
+                 <p>We have been developing softwares for educational institutes, small buinesses, casinos and many more companies who are in the higher levels of the corporate section</p>
+                 <p>Pricing: from $50 onwards</p>
+               </li>
+             </ul>
+        </article>
+
+                    <!--side  bar tags are starting here-->
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Get a Quote</h3>
+              <form class="quote">  <!--here also a back end design needed to take the fillings of this form to outside-->
+                <div>
+                  <label>Name</label><br>
+                  <input type="text" placeholder="Name">
+                </div>
+                <div>
+                  <label>Email</label><br>
+                  <input type="email" placeholder="Email Address">
+                </div>
+                <div>
+                  <label>Message</label><br>
+                  <textarea placeholder="Message"></textarea> <!-- here another attribute can be placed liek this -rows="8" cols="25"-  in between textarea name and the place holder-->
+                </div>
+                <button class="button_1" type="submit">Send</button>
+              </form>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <footer>
+      <p>Acme Web Design, Copyright &copy; 2020</p>
+    </footer>
+  </body>
+</html>
